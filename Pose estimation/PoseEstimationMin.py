@@ -20,7 +20,6 @@ while True:
             cx, cy = int(lm.x * w), int(lm.y * h)
             cv2.circle(img, (cx, cy), 10, (255, 0, 255), cv2.FILLED)
 
-
     cTime = time.time()
     fps = 1/(cTime-pTime)
     pTime = cTime

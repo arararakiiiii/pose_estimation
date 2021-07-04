@@ -35,6 +35,7 @@ class poseDetector():
                     cv2.circle(img, (cx, cy), 10, (255, 0, 255), cv2.FILLED)
         return lmlist
 
+
 def main():
     cap = cv2.VideoCapture(0)
     pTime = 0
